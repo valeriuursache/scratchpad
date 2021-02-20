@@ -1,4 +1,4 @@
 # scratchpad
 
-this is my area to paly with.
+This is my area to play with.
 
