@@ -30,7 +30,6 @@ if __name__ == "__main__":
         print(simple_set[i])
         print(simple_set[i])
         print(simple_set[i])
-
         
     
     
