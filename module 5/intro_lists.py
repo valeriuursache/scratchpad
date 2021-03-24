@@ -1,8 +1,7 @@
 if __name__ == "__main__":
 
-    colors = ['red', 'yellow', 'blue', 'green']
-    colors[0] = 'cyan'
+    colors = ['red', 20, 'blue', 30]
+    
     print(colors)
 
-    colors.sort()
-    print(colors)
+    
