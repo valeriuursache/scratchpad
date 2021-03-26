@@ -17,7 +17,7 @@ if __name__ == "__main__":
 
     # promt user
     while True:
-     value = float(input('Enter your floating-point value, or enter stop'))
+     value = float(input('Enter your floating-point value, or enter stop:'))
      if value == "stop":
                break
     minimum = min(value)
