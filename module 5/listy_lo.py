@@ -17,9 +17,11 @@ if __name__ == "__main__":
 
     # promt user
     while True:
-     value = float(input('Enter your floating-point value, or enter stop:'))
+     value = (input('Enter your floating-point value, or enter stop:'))
      if value == "stop":
-               break
+         break
+        value = float(value)
+    
     minimum = min(value)
     print(f' Your minimum amoun of values is: {minimum}')
     maximum = max(value)
