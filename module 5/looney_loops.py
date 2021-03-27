@@ -25,13 +25,22 @@ if __name__ == "__main__":
         print(letter)
 
     # nested loop
-    simple_set = ('this', 'is', 'a', 'simple', 'set')
-    for i in range(len(simple_set)):
-        print(simple_set[i])
-        print(simple_set[i])
-        print(simple_set[i])
+    tpl = ('this', 'is', 'a', 'simple', 'set')
+    for i in range(5):
+        for j in range(3):
+            print(tpl[i])
+            
+               
+            
+       
         
-    
+           
+            
+
+
+        
+       
+      
     
           
     
