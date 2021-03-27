@@ -1,8 +1,14 @@
- while True:
-     value = (input('Enter your floating-point value, or enter stop:'))
-     if value == 'stop':
-         break
+if __name__ == '__main__':
+
+
+
+    while True:
+
+        value = (input('Enter your floating-point value, or enter stop:'))
         value = float(value)
+        if value == 'stop':
+            break
+        
     
     minimum = min(value)
     print(f' Your minimum amoun of values is: {minimum}')
