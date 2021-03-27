@@ -16,19 +16,21 @@ if __name__ == "__main__":
     print(len(breakfast))
 
     # promt user
+    numlist = []
     while True:
-     value = (input('Enter your floating-point value, or enter stop:'))
-     if value == "stop":
-         break
-        value = float(value)
+
+        inp = input('Enter your number, (\"done\" to finish):')
+        if (inp == 'done'):
+            break
+           
+        numlist.append(float(inp))
     
-    minimum = min(value)
+    
+    minimum = min(numlist)
     print(f' Your minimum amoun of values is: {minimum}')
-    maximum = max(value)
+    maximum = max(numlist)
     print(f' Your maximum amount of values is: {maximum}')
-    sum_1 = sum(value)
-    length = len(value)
-    average = sum_1/length
+    average = sum(numlist) / len(numlist)
     print(f'Your average amount of values are: {average}')
 
 
